@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <form action="#">
+            <div class="form-section">
+                <h2>Autor(es)</h2>
+                <label for="autorNome">Nome do autor:</label>
+                <input type="text" id="autorNome" name="autorNome">
+                <label for="autorSobrenome">Sobrenome do autor:</label>
+                <input type="text" id="autorSobrenome" name="autorSobrenome">
+            </div>
+
+            <div class="form-section">
+                <h2>Coautor 1</h2>
+                <label for="coautor1Nome">Nome do coautor 1:</label>
+                <input type="text" id="coautor1Nome" name="coautor1Nome">
+                <label for="coautor1Sobrenome">Sobrenome do coautor 1:</label>
+                <input type="text" id="coautor1Sobrenome" name="coautor1Sobrenome">
+            </div>
+
+            <!-- Repetir para outros coautores -->
+
+            <div class="form-section">
+                <h2>Orientador(es)</h2>
+                <label for="orientadorNome">Nome do orientador:</label>
+                <input type="text" id="orientadorNome" name="orientadorNome">
+                <label for="orientadorSobrenome">Sobrenome do orientador:</label>
+                <input type="text" id="orientadorSobrenome" name="orientadorSobrenome">
+                <label for="orientadorTitulacao">Titulação do orientador:</label>
+                <input type="text" id="orientadorTitulacao" name="orientadorTitulacao">
+            </div>
+
+            <!-- Repetir para outros orientadores -->
+
+            <div class="form-section">
+                <h2>Coorientador</h2>
+                <label for="coorientadorNome">Nome do coorientador:</label>
+                <input type="text" id="coorientadorNome" name="coorientadorNome">
+                <label for="coorientadorSobrenome">Sobrenome do coorientador:</label>
+                <input type="text" id="coorientadorSobrenome" name="coorientadorSobrenome">
+                <label for="coorientadorTitulacao">Titulação do coorientador:</label>
+                <select id="coorientadorTitulacao" name="coorientadorTitulacao">
+                    <option value="titulacao1">Escolha a titulação</option>
+                    <option value="titulacao2">Titulação 2</option>
+                    <option value="titulacao3">Titulação 3</option>
+                    <!-- Adicione mais opções de titulação aqui -->
+                </select>
+            </div>
+
+            <!-- Repetir para outros coorientadores -->
+
+            <div class="form-section">
+                <h2>Trabalho</h2>
+                <label for="tituloTrabalho">Título do trabalho:</label>
+                <input type="text" id="tituloTrabalho" name="tituloTrabalho">
+                <label for="subtituloTrabalho">Subtítulo do trabalho:</label>
+                <input type="text" id="subtituloTrabalho" name="subtituloTrabalho">
+                <label for="codigoCutter">Código Cutter:</label>
+                <input type="text" id="codigoCutter" name="codigoCutter">
+                <button id="gerarCutter" type="button">Gerador de Cutter</button>
+                <label for="tipoTrabalho">Tipo de trabalho:</label>
+                <input type="text" id="tipoTrabalho" name="tipoTrabalho">
+            </div>
+
+            <div class="form-section">
+                <h2>Trabalho de conclusão de curso</h2>
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso">
+                <label for="ano">Ano:</label>
+                <input type="text" id="ano" name="ano">
+                <label for="numFolhas">Nº de folhas:</label>
+                <input type="text" id="numFolhas" name="numFolhas">
+                <label for="assunto1">Assunto 1:</label>
+                <input type="text" id="assunto1" name="assunto1">
+                <label for="assunto2">Assunto 2:</label>
+                <input type="text" id="assunto2" name="assunto2">
+                <label for="assunto3">Assunto 3:</label>
+                <input type="text" id="assunto3" name="assunto3">
+                <label for="assunto4">Assunto 4:</label>
+                <input type="text" id="assunto4" name="assunto4">
+                <label for="assunto5">Assunto 5:</label>
+                <input type="text" id="assunto5" name="assunto5">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
