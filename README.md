@@ -1,4 +1,4 @@
-# ApolodoroVirtual
+## ApolodoroVirtual
 
 Este projeto ocupa-se do desenvolvimento de um modelo de solução digital para a difusão da produção científico-filosófica gerada pelo consorcio editorial acadêmico que vincula cinco grupos de pesquisa interinstitucionais (UNICENTRO-UEL-UFSC-UNESP-PUCSP) vinculados ao DGP-CNPq, os quais coordenam suas respectivas Séries Editoriais na editora APOLODORO VIRTUAL EDIÇÕES. Objetiva-se o aperfeiçoamento de seu sistema de informação por meio do aprimoramento das relações entre suas três entidades constituintes: corpo editorial e corpo gestor das Séries editoriais; organização com empresa parceira; e ferramentas tecnológicas para integração entre os grupos de pesquisa. Intrinsicamente orientado pelo desenvolvimento tecnológico, destaca-se seu impacto positivo no âmbito científico, econômico, social e ambiental na Região e no Estado. 
 
